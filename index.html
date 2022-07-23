@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--agregar bootstrap antes del ccs por que va en cascada-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--agregar css-->
+    <link rel="stylesheet" href="css/style.scss">
+    <title>javascript-11-10/03/2021-s7Bootstrapt</title>
+</head>
+
+<body>
+
+        <!--Formulario sensillo con bootstrap-->
+
+<!--    form.bg-dark.text-white.border.rounded.shadow.w-50vw.mx-auto.mt-3>div.form-group*3>label+input.form-control^button[tipe="button"].btn.btn-primary   -->
+
+<!--form action="" class="bg-dark text-white border rounded shadow w-50 mx-auto mt-3 p-3">
+    <h3 class="center" >Formulario de registro</h3>
+    <div class="form-group"><label for="">Nombre:</label><input type="text" class="form-control"></div>
+    <div class="form-group"><label for="">Apellido:</label><input type="text" class="form-control"></div>
+    <div class="form-group"><label for="">Email:</label><input type="text" class="form-control"></div>
+    <button tipe="button" class="btn btn-primary">Guardar</button>
+</form-->
+
+<h3>contenedor block</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-1 border border-primary">col 1</div>
+        <div class="col-1 border border-primary">col 2</div>
+        <div class="col-1 border border-primary">col 3</div>
+        <div class="col-1 border border-primary">col 4</div>
+        <div class="col-1 border border-primary">col 5</div>
+        <div class="col-1 border border-primary">col 6</div>
+        <div class="col-1 border border-primary">col 7</div>
+        <div class="col-1 border border-primary">col 8</div>
+        <div class="col-1 border border-primary">col 9</div>
+        <div class="col-1 border border-primary">col 10</div>
+        <div class="col-1 border border-primary">col 11</div>
+        <div class="col-1 border border-primary">col 12</div>
+    </div>
+</div><br>
+
+<h3>contenedor fluid</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1 border border-primary">col 1</div>
+        <div class="col-1 border border-primary">col 2</div>
+        <div class="col-1 border border-primary">col 3</div>
+        <div class="col-1 border border-primary">col 4</div>
+        <div class="col-1 border border-primary">col 5</div>
+        <div class="col-1 border border-primary">col 6</div>
+        <div class="col-1 border border-primary">col 7</div>
+        <div class="col-1 border border-primary">col 8</div>
+        <div class="col-1 border border-primary">col 9</div>
+        <div class="col-1 border border-primary">col 10</div>
+        <div class="col-1 border border-primary">col 11</div>
+        <div class="col-1 border border-primary">col 12</div>
+    </div>
+</div><br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-1 border bg-primary">col 1</div>
+        <div class="col-1 border bg-primary">col 2</div>
+        <div class="col-1 border bg-primary">col 3</div>
+        <div class="col-1 border bg-primary">col 4</div>
+        <div class="col-1 border bg-primary">col 5</div>
+        <div class="col-1 border bg-primary">col 6</div>
+        <div class="col-1 border bg-primary">col 7</div>
+        <div class="col-1 border bg-primary">col 8</div>
+        <div class="col-1 border bg-primary">col 9</div>
+        <div class="col-1 border bg-primary">col 10</div>
+        <div class="col-1 border bg-primary">col 11</div>
+        <div class="col-1 border bg-primary">col 12</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-2 border bg-secondary">col 1</div>
+        <div class="col-2 border bg-secondary">col 2</div>
+        <div class="col-2 border bg-secondary">col 3</div>
+        <div class="col-2 border bg-secondary">col 4</div>
+        <div class="col-2 border bg-secondary">col 5</div>
+        <div class="col-2 border bg-secondary">col 6</div>
+        <div class="col-2 border bg-secondary">columna de mas</div>
+    </div>
+
+    <div class="row">
+        <div class="col-2 border bg-secondary">col 1</div>
+        <div class="col-2 border bg-secondary">col 2</div>
+        <div class="col-2 border bg-secondary">col 3</div>
+        <div class="col-2 border bg-secondary">col 4</div>
+        <div class="col-2 border bg-secondary">col 5</div>
+        <div class="col-2 border bg-secondary">col 6</div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 border bg-danger">col 1</div>
+        <div class="col-3 border bg-danger">col 2</div>
+        <div class="col-3 border bg-danger">col 3</div>
+        <div class="col-3 border bg-danger">col 4</div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 border bg-warning">col 1</div>
+        <div class="col-5 border bg-warning">col 2</div>
+        <div class="col-2 border bg-warning">col 3</div>
+        <div class="col-2 border bg-warning">col 4</div>
+    </div>
+
+    <div class="row">
+        <div class="col-2 border bg-success">col 1</div>
+        <div class="col-8 border bg-success">col 2</div>
+        <div class="col-2 border bg-success">col 3</div>
+    </div>
+
+    <h3>version movile</h3>
+    <div class="row">
+        <div class="col-12 col-lg-3 border bg-success">col 3</div>
+        <div class="col-12 col-lg-7 border bg-dark text-white">col 7</div>
+        <div class="col-12 col-lg-2 border bg-primary">col 2</div>
+        <div class="col-12 col-lg-2 border bg-danger d-none">col 2</div> <!--d-none para que desaparesca-->
+        <h3>pantalla pequeña------</h3>
+        <div class="col-12 border bg-danger d-none d-lg-block">pantalla grande</div>
+        <h3>pantalla pequeña</h3>
+        <div class="col-12 col-lg-2 border bg-danger d-md-flex d-lg-none">pantalla pequeña</div>
+    </div>
+
+
+</div>
+
+
+
+
+    <!--Bootstrap hecho con javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
